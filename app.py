@@ -5,7 +5,7 @@ import openai
 app = Flask(__name__)
 
 # Set up OpenAI API key
-openai.api_key = "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"
+openai.api_key = "key"
 
 @app.route("/whatsapp", methods=["POST"])
 def whatsapp_webhook():
